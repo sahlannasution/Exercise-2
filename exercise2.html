@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <table class="table table-bordered">
+            <tr>
+                <td colspan=6 class="text-center">
+                    <h4><b>KALKULATOR</b></h4> (HTML,JavaScript,CSS/bootstrap)
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan=6>
+                    <form>
+                        <div class="form-group">
+                            <label for="angka1">Masukkan Angka 1</label>
+                            <input type="text" class="form-control" id="angka1" placeholder="Masukkan Angka 1">
+                        </div>
+                        <div class="form-group">
+                            <label for="angka2">Masukkan Angka 2</label>
+                            <input type="text" class="form-control" id="angka2" placeholder="Masukkan Angka 2">
+                        </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3"><button class="btn btn-info btn-block" id="btnTambah" onclick="tambah()">+</button></td>
+                <td class="col-md-3"><button class="btn btn-info btn-block" id="btnKurang" onclick="kurang()">-</button></td>
+                <td class="col-md-3"><button class="btn btn-info btn-block" id="btnKali" onclick="kali()">x</button></td>
+                <td class="col-md-3"><button class="btn btn-info btn-block" id="btnBagi" onclick="bagi()">/</button></td>
+
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <div class="form-group">
+                        <label for="hasil">Hasil Perhitungan</label>
+                        <input type="text" class="form-control" id="hasil" placeholder="Hasil Perhitungan" disabled>
+                    </div>
+                </td>
+            </tr>
+            </form>
+        </table>
+    </div>
+    <div class="col-md-4"></div>
+</body>
+<script type="text/javascript" src="exercise2.js"></script>
+
+</html>
